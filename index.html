@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/pomodoro.css">
+	<script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/pomodoro.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</head>
+<body>
+<div class="container">
+	<h1>Let's get work done</h1>
+	<div class="controls">
+		<div class="control">
+			<div class="controlType">Session</div>
+			<span id="workTime">25</span>
+			<div class="controlButtons">
+				<button id="workDecreaser">-</button>
+				<button id="workIncreaser">+</button>
+			</div>
+		</div>
+		<div id="start">
+			<button id="startButton">START</button>
+		</div>
+		<div class="control">
+			<div class="controlType">Break</div>
+			<span id="breakTime">5</span>
+			<div class="controlButtons">
+				<button id="breakDecreaser">-</button>
+				<button id="breakIncreaser">+</button>
+			</div>
+		</div>
+	</div>
+	<div class="clock">
+		<div id="timer"><span id="minutes">25</span>:<span id="seconds">00</span></div>
+		<div class="controlType">Work</div>
+	</div>
+</div>
+</div>
+<audio></audio>
+</body>
+</html>
